@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-  font-family: Oswald, "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* Video Background */
@@ -36,7 +36,7 @@ video {
   top: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(56, 55, 55, 0.3);
 }
 
 /* Container */
@@ -46,20 +46,22 @@ video {
   color: black;
   margin: 0 auto;
   padding: 25px 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   z-index: 2;
   display: flex;
   justify-content: center;
-  background: rgba(170, 169, 169, 0.5);
+  background: rgba(170, 169, 169, 0.8);
 }
 
 .input-container {
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
   position: relative;
   top: 20px;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 10px;
@@ -113,7 +115,7 @@ ul {
 li {
   display: inline-block;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   list-style-type: none;
   text-transform: uppercase;
 }
